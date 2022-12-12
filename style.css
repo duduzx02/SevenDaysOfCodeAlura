@@ -1,0 +1,24 @@
+@import url("assets/css/cabecalho.css");
+
+:root{
+    --font-principal: 'Inter', sans-serif;
+
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* tirar fundo e bordas do botão de entrar */
+/* .botao__entrar{
+    background-color: transparent ;
+    border: none;
+} */
