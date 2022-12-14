@@ -1,24 +1,23 @@
 @import url("assets/css/cabecalho.css");
+@import url("assets/css/navBar.css");
 
-:root{
+:root {
     --font-principal: 'Inter', sans-serif;
+    --text-color: #667085;
+    --main-color: #8E2424;
 
 }
 
 body {
     font-family: var(--font-principal);
+    width: 100%;
+    height: 100%;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-
-/* tirar fundo e bordas do botão de entrar */
-/* .botao__entrar{
-    background-color: transparent ;
-    border: none;
-} */
