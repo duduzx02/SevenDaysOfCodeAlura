@@ -1,0 +1,36 @@
+.metricas {
+  height: 288px;
+  margin: 64px;
+}
+
+.container__metricas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item__metricas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 280px;
+  height: 168px;
+}
+
+.item__titulo {
+  font-weight: 600px;
+  font-size: 60px;
+  color: var(--main-color);
+}
+
+.item__subtitulo {
+  font-weight: 500;
+  font-size: 18px;
+  color: #101828;
+}
+
+.item__texto {
+  color: var(--text-color);
+}

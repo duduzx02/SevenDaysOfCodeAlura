@@ -1,5 +1,6 @@
 @import url("assets/css/cabecalho.css");
 @import url("assets/css/navBar.css");
+@import url("assets/css/metricas.css");
 
 :root {
     --font-principal: 'Inter', sans-serif;
