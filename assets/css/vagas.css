@@ -1,0 +1,28 @@
+.vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.vagas__texto {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 4px 12px;
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  color: var(--main-color);
+}
+
+.vagas__titulo {
+  font-weight: 600;
+  font-size: 36px;
+  color: #101828;
+}
+
+.vagas__subtitulo {
+  font-size: 20px;
+  color: #667085;
+  margin-bottom: 44px;
+}
