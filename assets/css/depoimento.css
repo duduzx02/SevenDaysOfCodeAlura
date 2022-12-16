@@ -1,16 +1,16 @@
-.depoimentos {
+.depoimentos{
     padding: 96px 0;
 }
-
-
 .container__depoimentos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 32px;
+    padding: 96px 32px;
     margin: 64px;
     gap: 32px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
 }
 
 .depoimento {
@@ -21,20 +21,20 @@
     gap: 16px;
 }
 
-.depoimento__texto{
+.depoimento__texto {
     font-weight: 600;
     font-size: 14px;
     color: var(--main-color);
 }
 
-.depoimento__titulo{
+.depoimento__titulo {
     text-align: center;
     font-weight: 500;
     font-size: 36px;
     color: #101028;
 }
 
-.usuario{
+.usuario {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,13 +42,13 @@
     gap: 4px;
 }
 
-.usuario__nome{
+.usuario__nome {
     font-weight: 500;
     color: #101828;
     padding-top: 12px;
 }
 
-.usuario__cargo{
+.usuario__cargo {
     font-size: 14px;
-    color: var(--text-color );
+    color: var(--text-color);
 }
